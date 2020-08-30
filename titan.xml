@@ -2,8 +2,10 @@
 <manifest>
   <include name="base-l.xml"/>
   
-  <remote name="lineage" fetch="git://github.com/LineageOS/" revision="cm-12.1"/>
+  <remote name="lineage" fetch="git://github.com/LineageOS/" revision="cm-12.1" />
 
-  <project name="android_device_motorola_titan" path="device/motorola/titan" remote="lineage"/>  
-  <project name="android_kernel_motorola_titan" path="kernel/motorola/titan" remote="lineage" revision="cm-12.0"/>
+  <project name="android_device_motorola_titan" path="device/motorola/titan" remote="lineage" />  
+  <project name="android_device_motorola_msm8226-common" path="device/device/msm8226-common" remote="lineage" />
+  <project name="android_kernel_motorola_titan" path="kernel/motorola/titan" remote="lineage" revision="cm-12.0" />
+
 </manifest>
